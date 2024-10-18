@@ -5,10 +5,18 @@ import PostCard from "@/components/postCard/postCard";
 const blog = () => {
   return (
     <div className={styles.container}>
-      <PostCard />
-      <PostCard />
-      <PostCard />
-      <PostCard />
+      <div className={styles.post}>
+        <PostCard />
+      </div>
+      <div className={styles.post}>
+        <PostCard />
+      </div>
+      <div className={styles.post}>
+        <PostCard />
+      </div>
+      <div className={styles.post}>
+        <PostCard />
+      </div>
     </div>
   );
 };
